@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>Cobb Douglas</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Función de producción Cobb Douglas</h1>
+    </header>
+    <main class="main">  
+        <div class="container-info">
+            <h3>¿Qué es?</h3>
+            <p>La función de producción Cobb Douglas es un enfoque neoclásico para estimar la función de producción de un país. De esta forma, pudiendo proyectar así su crecimiento económico esperado.</p>
+            <h3>¿Cómo funciona?</h3>
+            <p>Para representar las relaciones entre la producción obtenida, utiliza las variaciones de los insumos capital (K),  trabajo (L),   tecnologia (A),   parámetros que representan el peso de los factores (α y β).</p>
+        </div>
+        <div class="container-info">
+            <div class="container-formula">
+                <h3 class="titulo">Introduce la función</h3>
+                <div class="container-resultados">
+                    <div>y</div>
+                    <div>=</div>
+                    <div>f ( x , y )</div>
+                    <div>=</div>
+                    <div><input type="number" class="num" id="capital"></div>
+                    <div>K</div>
+                    <div class="container-delta"><span><input type="number" class="num-delta" id="alfa-denominador"><input type="number" class="num-delta1" id="alfa-numerador"></span></div>
+                    <div>L</div>
+                    <div class="container-delta"><span><input type="number" class="num-delta" id="beta-denominador"><input type="number" class="num-delta1" id="beta-numerador"></span></div>
+                </div>
+                <div class="container-resuelto" id="resultadoFinal">
+                    <div id="PMgK">Hola</div>
+                    <div id="PMgL">Hola</div>
+                </div>
+                <div class="container-boton">
+                    <button class="boton" id="call-to-action">
+                        Resolver 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>
