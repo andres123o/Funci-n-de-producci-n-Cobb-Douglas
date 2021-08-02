@@ -17,7 +17,7 @@ body {
 .header h1 {
     text-align: center;
     font-family: Mukta;
-    font-size: 80px;
+    font-size: 40px;
     color: rgb(214, 78, 78);
     text-transform: uppercase;
 }
@@ -39,14 +39,14 @@ body {
 .container-info  h3 {
     font-family: Oswald;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 20px;
     color: rgb(214, 78, 78);
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 .container-info  p {
     font-family: Mukta;
-    font-size: 30px;
+    font-size: 10px;
     color: rgb(170, 22, 22);
     margin-bottom: 90px;
     text-transform: uppercase;
