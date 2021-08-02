@@ -30,9 +30,8 @@ body {
 .main .container-info {
     width: 50%;
     height: 50%;
-    padding-bottom: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 10px;
 }
 
@@ -52,7 +51,7 @@ body {
     text-transform: uppercase;
 }
 .container-formula {
-    width: 100%;
+    width: 900px;
     height: 65vh;
     border-radius: 50px;
     background-color: rgba(248, 218, 218, 0.678);
