@@ -9,7 +9,14 @@ body {
     background-color: rgb(245, 245, 235);
 }
 
-
+header {
+    text-align: center;
+    color: brown;
+    padding-top: 30px;
+    font-family: Oswald;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .main {
     width: 100%;
