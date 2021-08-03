@@ -43,6 +43,30 @@ header {
     
 }
 
+.container-resultados {
+    display: flex;
+    width: 100%;
+    font-family: Oswald;
+    font-size: 30px;
+}
+.container-resultados div {
+    margin: 2px;
+}
+
+
+.container-resultados input {
+    width: 20px;
+    height: 30px;
+}
+.container-delta {
+    width: 20px;
+    height: 30px;
+    position: relative;
+}
+
+.container-delt span {
+    position: absolute;
+}
 
 
 
