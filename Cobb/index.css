@@ -55,8 +55,8 @@ header {
 
 
 .container-resultados input {
-    width: 25px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding-left: 4px;
     font-size: 20px;
 }
@@ -71,7 +71,12 @@ header {
     bottom: 30px;
 }
 
-
+.titulo {
+    font-family: Oswald;
+    font-size: 40px;
+    color: brown;
+    margin-bottom: 120px;
+}
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
