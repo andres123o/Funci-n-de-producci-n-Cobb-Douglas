@@ -1,0 +1,136 @@
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+
+.header {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  padding-top: 20px;
+  font-family: Oswald;
+  text-align: center;
+  color: brown;
+}
+.header h1 {
+  margin-top: 20px;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+
+.container-info {
+  width: 100%;
+  height: ;
+}
+
+.container-info h3 {
+  font-family: Oswald;
+  color: brown;
+  margin-left: 50px;
+}
+
+.container-info p {
+  font-family: sans-serif;
+  color: rgb(189, 63, 63);
+  margin: 50px;
+}
+.container-formula {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.titulo {
+  font-family: Oswald;
+  color: brown;
+  margin-left: 50px;
+}
+
+.container-resultados {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 30px;
+}
+.enFuncion {
+  width: 30px;
+}
+.container-resultados div {
+  font-family: Oswald;
+  font-size: 20px;
+  text-align: center;
+  width: 20px;
+  color: brown;
+  margin: 10px;
+}
+
+.container-resultados div span {
+  position: relative;
+}
+
+.num-delta {
+  width: 20px;
+  padding-left: 4px;
+  position: absolute;
+  top: -10px;
+}
+
+.num-delta1 {
+  width: 20px;
+  padding-left: 4px;
+  margin-bottom: 40px;
+}
+.num {
+  width: 30px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.container-resuelto {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  font-family: Oswald;
+  color: brown;
+}
+.container-boton {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: azure;
+  background-color: brown;
+  font-family: sans-serif;
+}
+.boton:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(212, 55, 55);
+}
+.boton:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(216, 84, 84);
+}
